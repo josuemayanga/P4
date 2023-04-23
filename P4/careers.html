@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Careers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      color: #000000;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1000px;
+      }
+      .career-list {
+        list-style: none;
+        margin: 0;
+        padding-left: 0px;
+        max-width: 600px;
+      }
+      .career-list li {
+        margin-bottom: 20px;
+      }
+      .career-list h2 {
+        margin-top: 0;
+      }
+      .image-container {
+        width: 100%;
+        height: auto;
+        max-width: 1000px;
+        margin: 20px;
+      }
+      .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      h1 {
+        margin-bottom: 50px;
+      }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1 style="text-align: center;">Careers</h1>
+<div class="container">
+  <ul class="career-list">
+    <li>
+      <h2>Software Developer</h2>
+      <p>We are seeking a talented software developer to join our team. The ideal candidate will have experience with JavaScript, Python, and React.</p>
+      <button>Apply Now</button>
+    </li>
+    <li>
+      <h2>Data Scientist</h2>
+      <p>We are seeking a data scientist to help us make sense of our data. The ideal candidate will have experience with statistical modeling, data visualization, and machine learning.</p>
+      <button>Apply Now</button>
+    </li>
+    <li>
+      <h2>Network Administrator</h2>
+      <p>We are seeking a network administrator to manage our network infrastructure. The ideal candidate will have experience with Cisco routers, firewalls, and VPNs.</p>
+      <button>Apply Now</button>
+    </li>
+    <li>
+      <h2>Web Developer</h2>
+      <p>We are seeking a skilled web developer to create and maintain our website. The ideal candidate will have experience with HTML, CSS, and JavaScript.</p>
+      <button>Apply Now</button>
+    </li>
+    <li>
+      <h2>Database Administrator</h2>
+      <p>We are seeking a database administrator to manage our database systems. The ideal candidate will have experience with SQL, Oracle, and MongoDB.</p>
+      <button>Apply Now</button>
+    </li>
+  </ul>
+  <div class="image-container">
+    <img src="images/careerpic.webp" alt="Computer Science">
+  </div>
+</div>
+<footer class="container-fluid text-center">
+  <p>&copy; Josue Mayanga Newark, New Jersey 2023</p>
+</footer>
+
+</body>
+</html>
+

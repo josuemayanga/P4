@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      color: #000000;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        max-width: 1200px;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px;
+        max-width: 300px;
+        height: 500px;
+      }
+      .card img {
+        max-width: 100%;
+        height: 60%;
+        object-fit: cover;
+      }
+      .card-content {
+        overflow: scroll;
+        height: 300px;
+      }
+      .checkout {
+        margin-top: 10px;
+      }
+      .price {
+        position: sticky;
+        top: 0;
+        background-color: white;
+        padding: 10px;
+      }
+      .card button {
+        margin-top: 10px;
+      }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1 style="text-align: center;">GPS Devices for Vehicles</h1>
+<div class="container">
+  <div class="card">
+    <img src="images/gps1.jpeg" alt="Car GPS Device">
+    <div class="card-content">
+      <h2>Car GPS</h2>
+      <p>This GPS device is perfect for use in cars. It comes with a 5-inch display, voice-guided directions, and lifetime map updates. With this device, you can easily navigate to your destination without getting lost.</p>
+      <div class="price">$300</div>
+    </div>
+    <button>Purchase</button>
+    <button>Add to Cart</button>
+    <button class="checkout">Checkout</button>
+  </div>
+  <div class="card">
+    <img src="images/gps2.jpeg" alt="Truck GPS Device">
+    <div class="card-content">
+      <h2>Truck GPS</h2>
+      <p>This GPS device is designed for use in trucks. It features a large 7-inch display, customized truck routing, and traffic updates. With this device, you can navigate with confidence, knowing that you are on the best route for your vehicle.</p>
+      <div class="price">$400</div>
+    </div>
+    <button>Purchase</button>
+    <button>Add to Cart</button>
+    <button class="checkout">Checkout</button>
+  </div>
+  <div class="card">
+    <img src="images/gps3.jpeg" alt="Commercial Truck GPS Device">
+    <div class="card-content">
+      <h2>Commercial Truck GPS</h2>
+      <p>This GPS device is ideal for use in commercial trucks. It offers advanced features like weigh station alerts, IFTA fuel tracking, and route planning. With this device, you can optimize your fleet's performance and save time and money.</p>
+      <div class="price">$700</div>
+    </div>
+    <button>Purchase</button>
+    <button>Add to Cart</button>
+    <button class="checkout">Checkout</button>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>&copy; Josue Mayanga Newark, New Jersey 2023</p>
+</footer>
+
+</body>
+</html>

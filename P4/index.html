@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Type-One-Tech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      background-color: #000000;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #4169E1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      color: #000000;
+      padding: 10px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    		/* Style for card container */
+		.card-container {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-between;
+		  max-width: 1000px;
+		  margin: 0 auto;
+		}
+
+		/* Style for cards */
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  width: calc(50% - 20px);
+		  margin-bottom: 40px;
+		  text-align: center;
+		  font-family: arial;
+		  padding: 20px;
+		  background-color: #f2f2f2;
+		}
+
+		/* Style for card image */
+		.card img {
+		  max-width: 100%;
+		  height: auto;
+		  margin-bottom: 20px;
+		}
+
+		/* Style for button */
+		.button {
+		  background-color: #4CAF50;
+		  border: none;
+		  color: white;
+		  padding: 10px 20px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+		
+		/* Style for title */
+		h1 {
+		  text-align: center;
+		  margin-top: 50px;
+		  font-family: arial;
+		}
+
+		/* Style for bottom paragraph */
+		p {
+		  max-width: 800px;
+		  margin: 0 auto;
+		  padding: 20px;
+		  text-align: center;
+		  font-family: arial;
+		}
+    
+    p{
+      font-size: 20px;
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1>Welcome to Type-One-Tech</h1>
+<p>Type-One-Ter is a cutting-edge GPS company that utilizes advanced user analysis and AI to revoltionize the way we navigate roads. By collecting and analyzing user data, Type-One-Tech is able to predict traffic patterns and suggest optimal driving routes to avoid congestion. Our innovative technology allows drivers to make smarter decisions on the road, saving time and recuding stress. With Type-One-Tech, you can expect at seamless drivign experience that is both effienct and hassle-free </p>
+
+<!-- Card Container -->
+<div class="card-container">
+  
+  <!-- First Card -->
+  <div class="card">
+    <img src="images/Aitraffic.jpeg" alt="Real-time Traffic Analysis">
+    <h2>Real-time Traffic Analysis</h2>
+    <p>Our AI algorithms analyze real-time traffic data to identify patterns and make predictions about future traffic flow. By monitoring traffic in real-time, our technology can help drivers avoid congestion and get to their destinations more quickly.</p>
+    <a href="https://www.the-next-tech.com/artificial-intelligence/heres-how-ai-is-helping-cities-improve-traffic-management/"><button class="button">Learn More</button></a>
+  </div>
+  
+  <!-- Second Card -->
+  <div class="card">
+    <img src="images/loginpic.jpeg" alt="Login">
+    <h2>Type-One-Tech Account</h2>
+    <p>Login into your account</p>
+    <a href="login.html"><button class="button">Login</button></a>
+  </div>
+  
+</div>
+
+<!-- Bottom Paragraph -->
+<p>At Type-One-Tech, we are constantly working to improve our technology and expand our offerings. Our future vision includes developing more advanced AI algorithms and integrating our technology with autonomous vehicles. We believe that our technology can help reduce
+
+<footer>
+  <p>&copy; Josue Mayanga Newark, New Jersey 2023</p>
+</footer>
+
+</body>
+</html>
